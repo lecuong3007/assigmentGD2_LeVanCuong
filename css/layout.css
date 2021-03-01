@@ -1,0 +1,197 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top{
+    background: #141414;
+    height:40px;
+}
+#banner{
+    background:#ccc;
+    height:auto;
+    width: 1000px;
+}
+#main #left {
+    width: 700px;
+    float: left;
+    min-height: 400px;
+}
+#main #right {
+    width: 300px;
+    float: left;
+    min-height: 400px;
+}
+#footer {
+    background:black;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: #fff;
+    clear: left;
+    line-height: 60px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+padding: 0% 10px 0px 10px;
+border-right: 1px solid #f1f1f1;
+}
+#menu_top ul li a.active {
+    background: #1949b5;
+}
+#main #left ul {
+margin: 0px;
+padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left ul li h2 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+#main {
+    margin-top: 20px;
+}
+#main #right .menu_right ul {
+    margin: -15px 0px 0px 0px ;
+    padding: 0px;
+    border: 1px solid #cccccc;
+}
+#main #right .menu_right ul li {
+    list-style: none;
+}
+#main #right .menu_right ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 25px;
+    color: #878787;
+
+}
+#main #right .menu_right ul li a:hover{
+    color:orange;
+}
+#main #right .menu_right h3 {
+    background: #194d58;
+    height:40px ;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    text-indent: 30px;
+    color: #000000;
+
+}
+ul.vmenu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow:0 0 5px orangered;
+    list-style:none;
+    }
+    ul.vmenu>li>a{
+        display: block;
+        line-height: 30px;
+        text-decoration: none;
+        font-variant: small-caps;
+        color :orangered;
+        padding-left: 40px;
+        border-bottom: 1px dotted orangered;
+        background: url('image/logo3.png') no-repeat left center ;
+    }
+    ul.vmenu>li>a:hover{
+        background :url('image/logo2.png') no-repeat left center;
+        font-weight: bold;
+        color: red;
+    }
+    .menu>ul>li{
+        display: inline-block;
+        
+    }
+    #page{
+        width: 1000px;
+        margin: 0 auto
+}
+        
+    
+    
+    .menu>ul>li>a{
+        display: block;
+    }
+    .menu>ul{
+          padding: 0px;
+          margin: 0px;
+          list-style: none;
+          border-radius: 3px;
+          background-color:black;
+          text-align: center;
+        
+          
+    } 
+     .menu>ul>li>a{
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        color: white;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+    .menu>ul>li>a:hover{
+        color: yellow;
+    } 
+    .menu ul ul{
+        position: absolute;
+        display: none;
+        padding:0px;
+        margin: 0px;
+        list-style: none;
+        border-radius:3px;
+    width:200px;
+     background-color:white;
+     box-shadow:0 0 1px gray;
+    
+    }
+    .menu ul ul a{
+        display:block;
+        line-height:30px;
+     color:#ccc;
+    text-decoration:none;
+     font-variant:small-caps;
+    font-size:larger;
+     padding:0 10 pixel;
+    
+    }
+    .menu>ul>li:hover>ul{
+        display: block;
+        z-index: 1;
+    } 
+    aside{
+        min-height: 200px;
+        background-color:snow;
+        width:  28%;
+        float:right;
+    }
