@@ -1,0 +1,351 @@
+body{
+    padding: 0px;
+    margin: 0px
+}
+#page{
+width: 1000px;
+margin: 0 auto;
+
+}
+header{
+    height: 150px;
+    background-color:aliceblue;
+    background-image: url('images/fpoly.png');
+}
+nav{
+    line-height: 25px;
+    background-color:aliceblue;
+}
+section{
+    width: 100%;
+}
+article{
+    min-height: 200px;
+    background-color:seashell;
+    width: 75%;
+    float: left;
+}
+aside{
+    min-height: 200px;
+    background-color:snow;
+    width:  25%;
+    float: left;
+}
+footer{
+    height: 40px;
+    background-color: pink;
+clear: both;
+border-top:3px double black;
+}
+/*menu trong aside*/
+ul.vmenu{
+margin: 0px;
+padding: 0px;
+border-radius: 5px;
+box-shadow:0 0 5px orangered;
+list-style:none;
+}
+ul.vmenu>li>a{
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color :orangered;
+    padding-left: 40px;
+    border-bottom: 1px dotted orangered;
+    background: url('image/logo3.png') no-repeat left center ;
+}
+ul.vmenu>li>a:hover{
+    background :url('image/logo2.png') no-repeat left center;
+    font-weight: bold;
+    color: red;
+}
+/* bài 2 lap 7 */
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color : orangered;
+    font-weight: bold;
+}
+.pord>.image{
+    max-width: 98px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+
+}
+.form-group{
+    margin: 10px 2px ;
+}
+.form-control{s
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: red;
+    display: block;
+}
+body{
+    padding: 0px;
+    margin: 0px
+}
+    #page{
+        width: 1000px;
+        margin: 0 auto
+}
+header{
+    height: 300px;
+    text-decoration:underline;
+background-image: url('images/cap-quang-fpt-danh-cho-sinh-vien-removebg-preview.png');
+}
+nav{
+    line-height: 25px;
+    background-color:aliceblue;
+}
+section{
+    width: 100%;
+}
+article{
+    min-height: 200px;
+    background-color:aliceblue;
+    width: 75%;
+    float: left;
+}
+ 
+footer{
+    height: 40px;
+    background-color: pink;
+clear: both;
+border-top:3px double black;
+}
+/*menu trong aside*/
+ul.vmenu{
+margin: 0px;
+padding: 0px;
+border-radius: 5px;
+box-shadow:0 0 5px orangered;
+list-style:none;
+}
+ul.vmenu>li>a{
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color :orangered;
+    padding-left: 40px;
+    border-bottom: 1px dotted orangered;
+    background: url('image/logo3.png') no-repeat left center ;
+}
+ul.vmenu>li>a:hover{
+    background :url('image/logo2.png') no-repeat left center;
+    font-weight: bold;
+    color: red;
+}
+/* bài 2 lap 7 */
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color : orangered;
+    font-weight: bold;
+}
+.pord>.image{
+    max-width: 98px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding:  5px;
+    text-align: center;
+    position: relative;
+    
+}
+.prod>.name{
+    font-variant: small-caps;
+    color:orangered;
+}
+ .prod>.images{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+.prod>.icons{
+    position: absolute;
+    right: 05px;
+    bottom: 05px;
+    width: 25px;
+}
+.prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width:50px;
+}
+.menu>ul>li{
+    display: inline-block;
+    
+}
+    
+
+
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      border-radius: 3px;
+      background-color: orangered;
+      text-align: center;
+    
+      
+} 
+ .menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+} 
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding:0px;
+    margin: 0px;
+    list-style: none;
+    border-radius:3px;
+width:200px;
+ background-color:white;
+ box-shadow:0 0 1px gray;
+
+}
+.menu ul ul a{
+    display:block;
+    line-height:30px;
+ color:orangered;
+text-decoration:none;
+ font-variant:small-caps;
+font-size:larger;
+ padding:0 10 pixel;
+
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+} 
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 110px;
+    border-bottom-left-radius: 20px;
+    background-color: orangered;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bolder; 
+}
+.top-right a:hover{
+    color: white;
+    text-decoration: none;
+}
+.top-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.company-info{
+    position: absolute;
+    bottom: 450px;
+    left: 200x;
+    box-shadow:none;
+    font-size:20px;
+    font-variant: small-caps;
+    text-shadow:  0 0 20px orangered;
+    color: white;
+    font-style:italic;
+    
+}
+.row1{
+    height: 50px;
+}
+.column1{
+    width: 320px;
+    border: none;
+    margin: 20px;
+    float: left;
+  
+    
+
+}
+.column2{
+    width: 650px;
+    border: none;
+    margin: 20px;
+    float: left;
+    height: 250px;
+
+}
+.column2>h2{
+    color: blue;
+}
+ul.vmenu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow:0 0 5px orangered;
+    list-style:none;
+    }
+    ul.vmenu>li>a{
+        display: block;
+        line-height: 30px;
+        text-decoration: none;
+        font-variant: small-caps;
+        color :orangered;
+        padding-left: 40px;
+        border-bottom: 1px dotted orangered;
+        background: url('image/logo3.png') no-repeat left center ;
+    }
+    ul.vmenu>li>a:hover{
+        background :url('image/logo2.png') no-repeat left center;
+        font-weight: bold;
+        color: red;
+    }
+
